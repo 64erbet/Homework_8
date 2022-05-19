@@ -1,9 +1,5 @@
-public class Quad extends Shape implements Display_name {
-    private String name;
-
+public class Quad extends Shape {
     public Quad() {
         this.name = "Quad";
     }
-
-    public void display;
 }

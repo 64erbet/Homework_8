@@ -1,12 +1,5 @@
-public class Circle extends Shape implements Display_name {
-    private static String name;
-
+public class Circle extends Shape {
     public Circle() {
-        name = "Circle";
-    }
-
-    @Override
-    public static void display_name() {
-        System.out.println("Name = " + name);
+        this.name = "Circle";
     }
 }

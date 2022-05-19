@@ -1,12 +1,9 @@
-abstract class Shape{
-//    private static String name;
-
-    public static void display_name() {
-        System.out.println("Название фигуры: " + name);
+abstract class Shape {
+    protected String name;
+    public void display_shape_name() {
+        System.out.println("Name of figure: " + this.name); // Значение переменной name
+                                                            // выбираем в зависимости от
+                                                            // типа вызывающего класса-
+                                                            // наследника
     }
-
-    public static abstract void display_name();
-
-//    public abstract void display_name();
-//    abstract public void display_name();
 }
